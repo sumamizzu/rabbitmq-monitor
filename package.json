@@ -1,0 +1,27 @@
+{
+  "name": "rabbitmq-monitor-cli",
+  "version": "1.0.0",
+  "description": "CLI terminal monitor per RabbitMQ/MQTT brokers",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "mqtt",
+    "rabbitmq",
+    "monitoring",
+    "cli",
+    "terminal"
+  ],
+  "author": "Emanuele Micciulla",
+  "license": "ISC",
+  "dependencies": {
+    "amqplib": "^0.10.3",
+    "axios": "^1.6.0",
+    "chalk": "^4.1.2",
+    "moment": "^2.29.4",
+    "dotenv": "^16.3.1",
+    "cli-table3": "^0.6.3",
+    "ora": "^5.4.1"
+  }
+}
